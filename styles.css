@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Inter UI';
+    src: url('InterUI-Regular.woff2') format('woff2'),
+        url('InterUI-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter UI';
+    src: url('InterUI-Medium.woff2') format('woff2'),
+        url('InterUI-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+  font-family: "Inter UI";
+  font-weight: 400;
+  padding-left: 140px;
+  line-height: 1.2;
+}
+
+.narrowParagraph {
+    max-width: 20em;
+}
+
+.about {
+      font-size: 1.3rem;
+      line-height: 1.4;
+}
+
+.projectTitle {
+  padding-top: 70px;
+  font-size: 1.3rem;
+}
+
+.year{
+  padding-right: 1rem;
+  margin-bottom: 2px;
+  opacity: .5;
+}
+
+.wrapper {
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 10%;
+}
+
+/* LISTS */
+ul {
+  list-style-type: none;
+  line-height: 1.5;
+  padding: 0;
+  padding-top: 30px;
+  margin: 0;
+}
+
+ul.writing{
+  line-height: 3;
+}
+
+
+
+/*LINKS*/
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+    transition: color .15s ease-in;
+}
+
+a.info{
+  padding-right: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    transition: color .15s ease-in;
+}
+
+.link:active {
+    transition: color .15s ease-in;
+}
+
+.link:focus {
+    transition: color .15s ease-in;
+}
+
+.hover-yellow:hover {
+  color: #faad3f;
+}
+
+.hover-yellow:focus {
+   color: #faad3f;
+ }
+
+
+@media only screen and (max-width: 736px) {
+  .year{
+    display: none;
+    padding-right: 0rem;
+    margin-bottom: 0px;
+  }
+
+}
