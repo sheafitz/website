@@ -21,6 +21,12 @@ body {
   line-height: 1.2;
 }
 
+footer {
+  font-size: 14px;
+  text-align: right;
+  padding: 40px;
+}
+
 .narrowParagraph {
     max-width: 20em;
 }
