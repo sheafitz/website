@@ -19,12 +19,12 @@ body {
   font-weight: 400;
   padding-left: 130px;
   line-height: 1.2;
-  /* background-image: linear-gradient(to bottom, #FFFFFF 0%, #99A6F2 25%, #FEA8A3 70%, #FFFFFF 90%); */
+  background-image: linear-gradient(to bottom, #FFFFFF 0%, #99A6F2 25%, #FF816C 70%, #FFFFFF 90%);
 
 }
 
 footer {
-  font-size: 14px;
+  font-size: 12px;
   text-align: right;
   padding: 40px;
 }
@@ -71,6 +71,10 @@ footer {
   .embed{
     padding-right:0rem;
   }
+}
+
+.video {
+  padding: 20px;
 }
 
 
@@ -154,7 +158,7 @@ a.info{
  }
 
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 800px) {
   .year{
     display: none;
     padding-right: 0rem;
