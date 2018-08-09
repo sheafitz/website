@@ -17,16 +17,29 @@
 body {
   font-family: "Inter UI";
   font-weight: 400;
-  padding-left: 130px;
+  padding-left: 170px;
+  margin-top: 30px;
   line-height: 1.2;
-  /* background-image: linear-gradient(to bottom, #FFFFFF 0%, #99A6F2 25%, #FF816C 50%, #99A6F2 75%, #FFFFFF 90%); */
+  background-image: linear-gradient(to bottom, #FFFFFF 0%, #99A6F2 25%, #FF816C 50%, #99A6F2 75%, #FFFFFF 90%);
 
 }
 
 footer {
   font-size: 12px;
-  text-align: right;
+  text-align: center;
   padding: 40px;
+}
+
+svg {
+  display: flex;
+  position: fixed;
+  margin-left: -130px;
+  margin-top: 15px;
+  z-index: 1;
+}
+
+#index {
+  z-index: 3;
 }
 
 .narrowParagraph {
@@ -65,12 +78,19 @@ footer {
 }
 
 @media screen and (max-width: 600px){
+
   body{
+    margin-top: 20px;
     padding-left: 75px;
     margin-right: 0px;
   }
   .embed{
     padding-right:0rem;
+  }
+
+  svg{
+    margin-left: -20px;
+
   }
 }
 
@@ -117,6 +137,9 @@ ul.writing{
     text-align: center;
 }
 
+nav {
+  margin-left: 0;
+}
 
 
 /*LINKS*/
@@ -125,6 +148,7 @@ a {
     text-decoration: none;
     font-weight: 600;
     transition: color .15s ease-in;
+    cursor: pointer;
 }
 
 a.info{
@@ -166,27 +190,6 @@ a.info{
     margin-bottom: 0px;
   }
 
-}
-
-#base {
-  background: red;
-  display: inline-block;
-  height: 55px;
-  margin-left: 20px;
-  margin-top: 55px;
-    position: relative;
-    width: 100px;
-}
-#base:before {
-  border-bottom: 35px solid red;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  content: "";
-  height: 0;
-  left: 0;
-  position: absolute;
-  top: -35px;
-  width: 0;
 }
 
 
@@ -243,6 +246,8 @@ a.info{
 .no-underline {
     text-decoration: none;
 }
+
+
 
 .grow {
     -moz-osx-font-smoothing: grayscale;
