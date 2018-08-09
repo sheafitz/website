@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   padding-left: 130px;
   line-height: 1.2;
-  background-image: linear-gradient(to bottom, #FFFFFF 0%, #99A6F2 25%, #FF816C 70%, #FFFFFF 90%);
+  /* background-image: linear-gradient(to bottom, #FFFFFF 0%, #99A6F2 25%, #FF816C 50%, #99A6F2 75%, #FFFFFF 90%); */
 
 }
 
@@ -31,10 +31,11 @@ footer {
 
 .narrowParagraph {
     max-width: 20em;
+    padding-bottom: 10px;
 }
 
 .about {
-      font-size: 1.3rem;
+      /* font-size: 1.3rem; */
       line-height: 1.4;
 }
 
@@ -122,7 +123,7 @@ ul.writing{
 a {
     color: black;
     text-decoration: none;
-    font-weight: 550;
+    font-weight: 600;
     transition: color .15s ease-in;
 }
 

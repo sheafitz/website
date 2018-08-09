@@ -33,11 +33,34 @@
 
     <div class="smallWrapper">
      <p class="about narrowParagraph">
-       Shea Fitzpatrick is a Brooklyn-based <a class="hover-yellow" href="#writing">writer</a> and
+       Shea is a Brooklyn-based <a class="hover-yellow" href="#writing">writer</a> and
        <a class = "hover-yellow" href="#art">artist</a> currently
        <a class="hover-yellow" href="#research">exploring</a> forms that
        synthesize <a class="hover-yellow" href="#comic">comics</a>, poetry, design, and <a class="hover-yellow" href="#animation">animation.</a>
      </p>
+     <p class="about narrowParagraph">She is a recent graduate of Wesleyan University, where she received a BA in American Studies
+       with a self-designed concentration in Cultural Studies of Art.
+     </p>
+
+     <div id="typed-strings">
+       <p class="about">She likes punk drumming.</p>
+       <p class="about">She likes poetry with a sense of humor.</p>
+       <p class="about">She likes abstract comics.</p>
+       <p class="about">She likes supporting queer artists.</p>
+       <p class="about">She likes small presses.</p>
+       <p class="about">She likes compassionate technology.</p>
+       <p class="about">She likes playing live shows.</p>
+       <p class="about">She likes genre-bending fiction.</p>
+       <p class="about">She likes amateur videogames.</p>
+       <p class="about">She likes hypertext fiction.</p>
+       <p class="about">She likes wearing yellow.</p>
+       <p class="about">She likes sharing mix CDs.</p>
+       <p class="about">She likes post-internet art.</p>
+       <p class="about">She likes animated shorts.</p>
+       <p class="about">She likes movies where nothing happens.</p>
+       <p class="about">She likes self-teaching.</p>
+  </div>
+  <span id="typed"></span>
 
      <!-- <p class="about narrowParagraph">She is a recent graduate of Wesleyan University where she received a BA in American Studies
        with a self-designed concentration in Cultural Studies of Art.
@@ -55,7 +78,7 @@
 
 <!-- WRITING -->
   <div class="wrapper">
-    <p id="writing" class="projectTitle">Writing</p>
+    <p id="writing" class="projectTitle">WRITING</p>
     <ul class="writing">
       <li><span class="year">2018</span><a class="link hover-yellow" href="https://eyeondesign.aiga.org/waiting-for-tomorrow-the-strategic-use-of-serialization-in-eleanor-daviss-latest-comic/" target="_blank"><i>Waiting for</i> Tomorrow: <i>The Strategic Use of Serialization in Eleanor Davis' Latest Comic</i>,</a> AIGA Eye on Design</li>
 
@@ -80,7 +103,7 @@
 
 <!-- ART -->
 <div class="wrapper narrowParagraph">
-  <p id="art" class="projectTitle">Parametric Sketches</p>
+  <p id="art" class="projectTitle">PARAMETRIC SKETCHES</p>
   <p>Series of illustrations made in Grasshopper by sourcing image data from Processing sketches.
     They were made with components in Grasshopper that read brightness data to determine
     the radii of spheres that are mapped onto a divided surface, and then colorized in Photoshop.</p>
@@ -106,7 +129,7 @@
 </div>
 
   <div  class="smallWrapper">
-    <p id="comic" class="projectTitle"><i>I Didn't Ask for the Habit</i> (2018)</p>
+    <p id="comic" class="projectTitle"><i>I DIDN'T ASK FOR THE HABIT</i> (2018)</p>
 
     <p class="narrowParagraph"><i>I Didn't Ask for the Habit</i> is an abstract comic that seeks to
       create a looping, yet expansive, liminal space.</p>
@@ -137,14 +160,14 @@
 
   <!-- SHORT ANIMATION -->
   <div class="wrapper">
-    <p id="animation" class="projectTitle">Animation</p>
+    <p id="animation" class="projectTitle">SHORT ANIMATION</p>
     <iframe src="https://player.vimeo.com/video/248249598" width="960" height="640" frameborder="0" ></iframe>
   </div>
 
 
 <!-- RESEARCH -->
   <div class="wrapper">
-    <p id="research" class="projectTitle">Experimental "Comics"</p>
+    <p id="research" class="projectTitle">EXPERIMENTAL "COMICS"</p>
 
     <p class="narrowParagraph">Ongoing research on innovations in comics through a collection of illustrations,
       poems, diagrams, graphic scores, interactive media, and designs that acknowledge, but reimagine, the traditional framework
@@ -164,6 +187,17 @@
           <iframe class="arena-iframe" width="100%" height="1000" src="https://www.are.na/shea-fitzpatrick/generative-art-in-print/embed"></iframe>
         </div>
       </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script>
+      var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        loop: true,
+        smartBackspace: true,
+        typeSpeed: 25
+        });
+    </script>
 
 </body>
 
