@@ -18,9 +18,10 @@ body {
   font-family: "Inter UI";
   font-weight: 400;
   padding-left: 170px;
-  margin-top: 30px;
+  padding-top: 15px;
+  margin-top: 40px;
   line-height: 1.2;
-  background-image: linear-gradient(to bottom, #FFFFFF 0%, #99A6F2 25%, #FF816C 50%, #99A6F2 75%, #FFFFFF 90%);
+  /* background-image: linear-gradient(to bottom, #FFFFFF 0%, #99A6F2 25%, #FF816C 50%, #99A6F2 75%, #FFFFFF 90%); */
 
 }
 
@@ -33,14 +34,11 @@ footer {
 svg {
   display: flex;
   position: fixed;
-  margin-left: -130px;
-  margin-top: 15px;
+  margin-left: -135px;
+  margin-top: -20px;
   z-index: 1;
 }
 
-#index {
-  z-index: 3;
-}
 
 .narrowParagraph {
     max-width: 20em;
@@ -49,7 +47,9 @@ svg {
 
 .about {
       /* font-size: 1.3rem; */
+      position: relative;
       line-height: 1.4;
+      z-index: 3;
 }
 
 .projectTitle {
@@ -89,7 +89,8 @@ svg {
   }
 
   svg{
-    margin-left: -20px;
+    margin-top: 5;
+    margin-left: -35px;
 
   }
 }
@@ -175,11 +176,11 @@ a.info{
 }
 
 .hover-yellow:hover {
-  color: #faad3f;
+  color: #FFDB00;
 }
 
 .hover-yellow:focus {
-   color: #faad3f;
+   color: #FFDB00;
  }
 
 
