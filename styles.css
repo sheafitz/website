@@ -39,6 +39,14 @@ svg {
   z-index: 1;
 }
 
+.sidebar {
+  display:block;
+  position: fixed;
+  margin-left: -135px;
+  margin-top: 90px;
+  z-index: 1;
+}
+
 
 .narrowParagraph {
     max-width: 20em;
@@ -72,6 +80,7 @@ svg {
     margin: 0;
     overflow: hidden;
     padding-top: 30%;
+    padding-left: 20px;
 }
 
 .smallWrapper {
@@ -79,6 +88,7 @@ svg {
       margin: 0;
       overflow: hidden;
       padding-top: 8%;
+      padding-left: 20px;
 }
 
 @media screen and (max-width: 600px){
@@ -95,7 +105,11 @@ svg {
   svg{
     margin-top: 5;
     margin-left: -35px;
+  }
 
+  .sidebar{
+    margin-top: 5;
+    margin-left: -35px;
   }
 }
 
@@ -183,7 +197,7 @@ a.info{
   /* color: #FFDB00; */
     background: #FFDB00;
     color: #000000;
-    transition: background .15s ease-in;
+    transition: background .10s ease-in;
 
 }
 
@@ -192,6 +206,20 @@ a.info{
   background: #000000;
   color: #ffffff;
  }
+
+ .home:hover {
+   /* color: #FFDB00; */
+     background: #FFDB00;
+     color: #000000;
+     transition: background .10s ease-in;
+
+ }
+
+
+ .home:focus {
+   background: #FFDB00;
+   color: #000000;
+  }
 /*
 .home {
   position: fixed;
