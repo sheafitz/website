@@ -40,10 +40,11 @@ svg {
 }
 
 .sidebar {
-  display:block;
+  font-size: 13px;
+  display:flexbox;
   position: fixed;
   margin-left: -135px;
-  margin-top: 90px;
+  margin-top: 95px;
   z-index: 1;
 }
 
@@ -95,7 +96,7 @@ svg {
 
   body{
     margin-top: 20px;
-    padding-left: 75px;
+    padding-left: 100px;
     margin-right: 0px;
   }
   .embed{
@@ -103,13 +104,13 @@ svg {
   }
 
   svg{
-    margin-top: 5;
-    margin-left: -35px;
+    margin-top: 15px;
+    margin-left: -70px;
   }
 
   .sidebar{
-    margin-top: 5;
-    margin-left: -35px;
+    margin-top: 15;
+    margin-left: -70px;
   }
 }
 
