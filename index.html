@@ -6,6 +6,7 @@
   <!-- Code from font-face -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   <meta name="robots" content="noindex, noarchive">
   <meta name="format-detection" content="telephone=no">
   <meta name="google-site-verification" content="jNSiHAmVova_dtpuxqYQZmtegWKtinl_9JzYLOwTCPs"/>
@@ -28,62 +29,73 @@
           });
         });
     </script>
+    
+<script>
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 
 
 
 
 <!-- ABOUT -->
+
+<div id="navbar">
+  <a href="#topOfPage">SHEA</a>
+  <a href="#writing">WRITING</a>
+  <a href="#art">PROJECTS</a>
+  <a href="#research">RESEARCH</a>
+  <a href="#contact">CONTACT</a>
+</div>
+
 <div>
   <a href="#topOfPage"><svg width="95" height="95" id="svgIcon" class="home">
-  <!-- <a href="#topOfPage"><circle cx="50" cy="50" r="80" stroke="#FFDB00" stroke-width="5" fill=white></a> -->
 <a href="#topOfPage"><rect width=40 height=40 stroke="none" stroke-width="10" fill="black"/></a>
 </svg></a>
 <div class="sidebar">
 <p><a href="#writing" class="hover-yellow">WRITING</a></p>
 <p><a href="#art" class="hover-yellow">PROJECTS</a></p>
 <p><a href="#research" class="hover-yellow">RESEARCH</a></p>
-<p><a href="mailto:shea@sheafitz.com" target="_blank" class="hover-yellow">CONTACT</a><p>
+<p><a href="#contact" class="hover-yellow">CONTACT</a><p>
 </div>
+
+
 
   <div id="index" class="smallWrapper">
      <p  class="about narrowParagraph">
        Shea is a <a class="hover-yellow" href="#writing">writer</a> and
-       <a class = "hover-yellow" href="#art">artist</a> currently
-       <a class="hover-yellow" href="#research">exploring</a> forms that
-       synthesize comics, poetry, design, and animation.
+       <a class = "hover-yellow" href="#art">artist</a> based in Brooklyn.
      </p>
      <p class="about narrowParagraph">She has a BA in American Studies from Wesleyan University
        with a self-designed concentration in Cultural Studies of Art.
      </p>
 
      <div id="typed-strings" class="about">
+       <p class="about">She likes weird comics.</p>
        <p class="about">She likes punk drumming.</p>
        <p class="about">She likes poetry with a sense of humor.</p>
        <p class="about">She likes affect theory.</p>
-       <p class="about">She likes abstract comics.</p>
-       <p class="about">She likes supporting queer artists.</p>
-       <p class="about">She likes small presses.</p>
-       <p class="about">She likes playing live music.</p>
-       <p class="about">She likes genre-bending fiction.</p>
-       <!-- <p class="about">She likes hypertext fiction.</p> -->
+       <!-- <p class="about">She likes small presses.</p> -->
+       <!-- <p class="about">She likes live music.</p>
+       <p class="about">She likes genre-bending fiction.</p> -->
        <p class="about">She likes wearing yellow.</p>
-       <p class="about">She likes making mix CDs.</p>
-       <p class="about">She likes animated shorts.</p>
-       <p class="about">She likes movies where nothing happens.</p>
+       <!-- <p class="about">She likes making mix CDs (still).</p> -->
+       <!-- <p class="about">She likes animated shorts.</p>
+       <p class="about">She likes movies where nothing happens.</p> -->
   </div>
   <span id="typed"></span>
 
 
-<!-- CONTACT -->
 
-       <ul>
-         <!-- <li><a class="info hover-yellow" href="mailto:shea@sheafitz.com" target="__blank">email</a></li> -->
-         <li><a class="info hover-yellow" href="https://www.are.na/shea-fitzpatrick" target="_blank">are.na</a></li>
-         <!-- <li><a class="info hover-yellow" href="http://twitter.com/shea_fitz" target="_blank">twitter</a></li> -->
-         <li><a class="info hover-yellow" href="http://instagram.com/sheafitz" target="_blank">instagram</a></li>
-         <li><a class="info hover-yellow" href="SheaFitzpatrick_Resume.pdf" target="_blank">resume</a></li>
-       </ul>
-     </p>
+
     </div>
 
 
@@ -91,7 +103,7 @@
   <div class="wrapper">
     <p id="writing" class="projectTitle">WRITING</p>
     <ul class="writing">
-      <li><span class="year">2018</span><a class="link hover-yellow" href="https://eyeondesign.aiga.org/waiting-for-tomorrow-the-strategic-use-of-serialization-in-eleanor-daviss-latest-comic/" target="_blank"><i>Waiting for</i> Tomorrow: <i>The Strategic Use of Serialization in Eleanor Davis' Latest Comic</i>,</a> AIGA Eye on Design</li>
+      <li><span class="year">2018</span><a class="link hover-yellow" href="https://eyeondesign.aiga.org/waiting-for-tomorrow-the-strategic-use-of-serialization-in-eleanor-daviss-latest-comic/" target="_blank"><i>Waiting for</i> Tomorrow,</a> AIGA Eye on Design</li>
 
       <li><span class="year">2018</span><a class="link hover-yellow" href="https://www.are.na/blog/case%20study/2018/05/31/queer-technologies.html" target="_blank"><i>Queer Technologies</i>,</a> Are.na Blog</li>
 
@@ -101,9 +113,9 @@
 
       <li><span class="year">2017</span><a class="link hover-yellow" href="https://medium.com/the-queue/yes-there-are-queer-positive-childrens-books-that-are-actually-good-and-not-horribly-depressing-b3b1a315b2c9" target="_blank"><i>Yes, There Are Queer-Positive Children's Books That Are Actually Good</i>,</a> The Queue</li>
 
-      <li><span class="year">2017</span><a class="link hover-yellow" href="https://medium.com/the-queue/king-triton-is-a-terrible-dad-and-other-reality-checks-on-the-millennial-childhood-canon-e8df2a3c222f" target="_blank"><i>King Triton Is A Terrible Dad, and Other Reality Checks on the Millennial Childhood Canon</i>,</a> The Queue</li>
+      <li><span class="year">2017</span><a class="link hover-yellow" href="https://medium.com/the-queue/king-triton-is-a-terrible-dad-and-other-reality-checks-on-the-millennial-childhood-canon-e8df2a3c222f" target="_blank"><i>King Triton Is A Terrible Dad and Other Reality Checks</i>,</a> The Queue</li>
 
-      <li><span class="year">2017</span><a class="link hover-yellow" href="https://medium.com/the-queue/what-does-it-mean-to-support-diversity-in-comics-1f062197f1f7" target="_blank"><i>What Does It Mean to Support Diversity in Comics?</i></a> The Queue</li>
+      <!-- <li><span class="year">2017</span><a class="link hover-yellow" href="https://medium.com/the-queue/what-does-it-mean-to-support-diversity-in-comics-1f062197f1f7" target="_blank"><i>What Does It Mean to Support Diversity in Comics?</i></a> The Queue</li> -->
 
       <li><span class="year">2017</span><a class="link hover-yellow" href='https://medium.com/the-queue/why-you-should-draw-comics-even-if-you-cant-draw-f835e57e909a' target="_blank"><i>Why You Should Draw Comics Even If You Can't Draw</i>,</a> The Queue</li>
 
@@ -116,31 +128,30 @@
 <div class="wrapper narrowParagraph">
   <p id="art" class="projectTitle">SKETCHES</p>
   <p>Series of illustrations made in Grasshopper by sourcing image data from Processing sketches.
-    They were made with components in Grasshopper that read brightness data to determine
-    the radii of spheres that are mapped onto a divided surface, and then colorized in Photoshop.</p>
+    </p>
 </div>
 
 <div class="smallWrapper col pa2">
   <div class="fl w-100 w-50-ns ph2">
-    <img class="pv2 grow db no-underline black db w-100" src="images/sketch_0101.gif">
-    <img class="db w-100 pv2 grow db no-underline black" src="images/sketch_0201.gif">
-    <img class="pv2 grow db no-underline black db w-100" src="images/sketch_0103.gif"/>
-    <img class="pv2 grow db no-underline black db w-100" src="images/sketch_0104.jpg">
-    <img class="pv2 grow db no-underline black db w-100" src="images/sketch_0204.jpg">
+    <img class="pv2 grow db no-underline black db w-100" src="Images/sketch_0101.gif">
+    <img class="db w-100 pv2 grow db no-underline black" src="Images/sketch_0201.gif">
+    <img class="pv2 grow db no-underline black db w-100" src="Images/sketch_0103.gif"/>
+    <img class="pv2 grow db no-underline black db w-100" src="Images/sketch_0104.jpg">
+    <img class="pv2 grow db no-underline black db w-100" src="Images/sketch_0204.jpg">
   </div>
   <!-- big images on left -->
   <div class="fl w-50 w-25-ns ph2">
-    <img class="pv2 grow db no-underline black db w-100" src="images/sketch_0202.gif">
-    <img class="pv2 grow db no-underline black db w-100" src="images/sketch_0102.gif">
-    <img class="db w-100 pv2 grow db no-underline black" src="images/sketch_0203.jpg">
-    <img class="pv2 grow db no-underline black db w-100" src="images/sketch_0105.jpg">
-    <img class="pv2 grow db no-underline black db w-100" src="images/sketch0106.jpg">
-    <img class="pv2 grow db no-underline black db w-100" src="images/sketch_0205.jpg">
+    <img class="pv2 grow db no-underline black db w-100" src="Images/sketch_0202.gif">
+    <img class="pv2 grow db no-underline black db w-100" src="Images/sketch_0102.gif">
+    <img class="db w-100 pv2 grow db no-underline black" src="Images/sketch_0203.jpg">
+    <img class="pv2 grow db no-underline black db w-100" src="Images/sketch_0105.jpg">
+    <img class="pv2 grow db no-underline black db w-100" src="Images/sketch0106.jpg">
+    <img class="pv2 grow db no-underline black db w-100" src="Images/sketch_0205.jpg">
   </div>
 </div>
 
   <div  class="smallWrapper">
-    <p id="comic" class="projectTitle"><i>I DIDN'T ASK FOR THE HABIT</i> (2018)</p>
+    <p class="projectTitle"><i>I DIDN'T ASK FOR THE HABIT</i> (2018)</p>
 
     <p class="narrowParagraph"><i>I Didn't Ask for the Habit</i> is an abstract comic that seeks to
       create a looping, yet expansive, liminal space.</p>
@@ -168,11 +179,11 @@
     </div>
   </div>
 
-  <!-- SHORT ANIMATION -->
- <div class="wrapper">
+  <!-- ANIMATION -->
+ <!-- <div class="wrapper animation">
     <p id="animation" class="projectTitle"><i>REACH</i> (2017)</p>
-    <iframe src="https://player.vimeo.com/video/248249598" width="960" height="640" frameborder="0" ></iframe>
-  </div>
+    <iframe src="https://player.vimeo.com/video/248249598" width="100%" height="640" frameborder="0" ></iframe>
+  </div> -->
 
 
 
@@ -186,19 +197,52 @@
 
       <div class="cf">
         <div class="embed">
-          <iframe class="arena-iframe" width="100%" height="1000" src="https://www.are.na/shea-fitzpatrick/experimental-comics/embed"></iframe>
+          <iframe class="arena-iframe" width="100%" height="850" src="https://www.are.na/shea-fitzpatrick/experimental-comics/embed"></iframe>
         </div>
         <div class="embed">
-          <iframe class="arena-iframe" width="100%" height="1000" src="https://www.are.na/shea-fitzpatrick/abstract-formalist-comics/embed"></iframe>
+          <iframe class="arena-iframe" width="100%" height="850" src="https://www.are.na/shea-fitzpatrick/abstract-formalist-comics/embed"></iframe>
         </div>
       <div class="embed">
-          <iframe class="arena-iframe" width="100%" height="1000" src="https://www.are.na/shea-fitzpatrick/comics-poetry/embed"></iframe>
+          <iframe class="arena-iframe" width="100%" height="850" src="https://www.are.na/shea-fitzpatrick/comics-poetry/embed"></iframe>
         </div>
         <div class="embed">
-          <iframe class="arena-iframe" width="100%" height="1000" src="https://www.are.na/shea-fitzpatrick/generative-art-in-print/embed"></iframe>
+          <iframe class="arena-iframe" width="100%" height="850" src="https://www.are.na/shea-fitzpatrick/generative-art-in-print/embed"></iframe>
+        </div>
+      </div>
+  </div>
+
+
+  <div class="smallWrapper">
+    <p id="research" class="projectTitle">QUEER TECHNOLOGIES</p>
+
+    <p class="narrowParagraph">Investigation of artistic and technological strategies for remaking and resisting.</p>
+
+      <div class="cf">
+        <div class="embed">
+          <iframe class="arena-iframe" width="100%" height="850" src="https://www.are.na/shea-fitzpatrick/queer-technologies/embed"></iframe>
+        </div>
+        <div class="embed">
+          <iframe class="arena-iframe" width="100%" height="850" src="https://www.are.na/shea-fitzpatrick/collective-strategies-in-art/embed"></iframe>
+        </div>
+      <div class="embed">
+          <iframe class="arena-iframe" width="100%" height="850" src="https://www.are.na/shea-fitzpatrick/sexual-futures/embed"></iframe>
+        </div>
+        <div class="embed">
+          <iframe class="arena-iframe" width="100%" height="850" src="https://www.are.na/shea-fitzpatrick/utopian-plagiarism/embed"></iframe>
         </div>
       </div>
 
+
+<!--CONTACT-->
+<div class="wrapper">
+<ul id="contact" class="email">
+  <li><a class="info hover-yellow" href="mailto:shea@sheafitz.com" target="__blank">shea@sheafitz.com</a></li>
+  <li><a class="info hover-yellow" href="https://www.are.na/shea-fitzpatrick" target="_blank">https://www.are.na/shea-fitzpatrick</a></li>
+  <li><a class="info hover-yellow" href="http://twitter.com/shea_fitz" target="_blank">http://twitter.com/shea_fitz</a></li>
+  <li><a class="info hover-yellow" href="http://instagram.com/sheafitz" target="_blank">http://instagram.com/sheafitz</a></li>
+  <li><a class="info hover-yellow" href="SheaFitzpatrick_Resume.pdf" target="_blank">SheaFitzpatrick_Resume.pdf</a></li>
+</ul>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script>
@@ -212,8 +256,8 @@
 
 </body>
 
-<footer class="smallWrapper">
-  <p>This website was built using <a class="hover-yellow" href="http://tachyons.io/">Tachyons</a>. (c) Shea Fitzpatrick 2018.</p>
-</footer>
+<!-- <footer class="smallWrapper">
+  <p>This website was built using <a class="hover-yellow" href="http://tachyons.io/">Tachyons</a>.</p>
+</footer> -->
 
 </html>

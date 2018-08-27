@@ -65,6 +65,11 @@ svg {
   padding-top: 90px;
 }
 
+ul.email{
+  padding-bottom: 390px;
+  padding-top: 150;
+}
+
 .projectTitle {
   padding-top: 70px;
   font-size: 1.3rem;
@@ -91,7 +96,7 @@ svg {
       padding-top: 8%;
       padding-left: 20px;
 }
-
+/*
 @media screen and (max-width: 600px){
 
   body{
@@ -109,15 +114,75 @@ svg {
   }
 
   .sidebar{
-    margin-top: 15;
-    margin-left: -70px;
+    display: none;
   }
 }
 
 .video {
   padding: 20px;
+} */
+
+@media only screen
+and (min-width : 480px){
+  #navbar {
+    display: none;
+  }
 }
 
+@media only screen
+and (max-width : 480px){
+  .sidebar{
+    display: none;
+  }
+
+  svg{
+  display: none;
+  }
+
+  body {
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 17px;
+  }
+
+  ul.writing{
+    line-height: 1.5;
+  }
+
+  #index {
+    padding-top: 160px;
+    padding-bottom: 120px;
+  }
+
+  #navbar {
+      background-color: #FFDB00;
+
+      position: fixed;
+      top: 0;
+      /* width: 100%; */
+      transition: top 0.3s;
+      font-size: 11px;
+      color: #000000;
+      z-index: 4;
+  }
+
+
+  #navbar a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: right;
+      padding: 7px;
+      text-decoration: none;
+  }
+
+  #navbar a:hover {
+      color: black;
+      text-decoration: line-through;
+  }
+
+
+}
 
 /* LISTS */
 ul {
@@ -150,9 +215,9 @@ ul.writing{
 .embed {
     float: left;
     _display: inline;
-    width: 20%;
+    width: 22%;
     padding-top: 4rem;
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
     padding-bottom: 4rem;
     text-align: center;
 }
@@ -236,6 +301,7 @@ a.info{
     margin-bottom: 0px;
   }
 
+
 }
 
 
@@ -263,9 +329,9 @@ a.info{
     _display: inline;
 }
 
-.w-50 {
+/* .w-50 {
     width: 50%;
-}
+} */
 
 .w-100 {
     width: 100%;
